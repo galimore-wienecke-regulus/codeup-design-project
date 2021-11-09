@@ -3,3 +3,23 @@
 /* To use:
 font-family: 'Abel', sans-serif;
 font-family: 'Anton', sans-serif; */
+* {
+    font-family: 'Abel', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Anton', sans-serif;
+}
+
+.lg-circle{
+    width: 105px;
+    height: 105px;
+    border-radius: 50%;
+    background-color: red;
+}
+.sm-circle{
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: red;
+}
