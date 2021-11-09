@@ -3,23 +3,71 @@
 /* To use:
 font-family: 'Abel', sans-serif;
 font-family: 'Anton', sans-serif; */
+:root {
+    --red: #E6563B;
+    --orange: #DEA03D;
+    --green: #7CB06C;
+    --blue: #00ABA9;
+    --light: #F0F0F0;
+    --dark: #E6E6E6;
+
+
+}
+body {
+    background-color: var(--light) !important;
+    /*max-width: 75%;*/
+}
 * {
     font-family: 'Abel', sans-serif;
 }
-
 h1, h2, h3, h4, h5 {
     font-family: 'Anton', sans-serif;
 }
-
-.lg-circle{
+h1 {
+    font-size: 64px;
+}
+h2 {
+    font-size: 48px;
+}
+h3 {
+    font-size: 40px;
+}
+h4 {
+    font-size: 32px;
+}
+h5 {
+    font-size: 28px;
+}
+.lg-circle {
+    /*Circle params*/
     width: 105px;
     height: 105px;
+    border: 10px solid white;
+    max-width: 105px;
+    max-height: 105px;
     border-radius: 50%;
+    /*should only show red if forgot to specify bg color*/
     background-color: red;
+    /*Align content to center*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lg-circle p {
+    font-family: 'Anton', sans-serif;
+    color: white;
+    font-size: 20px;
 }
 .sm-circle{
     width: 18px;
     height: 18px;
     border-radius: 50%;
+    /* should not show */
     background-color: red;
+    display: flex;
+}
+.sm-circle p {
+    font-family: 'Anton', sans-serif;
+    color: black;
+    font-size: 8px;
 }
