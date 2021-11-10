@@ -17,17 +17,17 @@
 
 <body class="container-fluid justify-content-center">
 <nav class="d-block d-sm-none">
-<div class="row justify-content-center">
-    <img id="xs-logo" src="/assets/logo.png" alt="image">
-    <div class="container-fluid" id="xs-logo-banner" style="background-color: white"></div>
-</div>
-<p class="row codeup justify-content-center">codeup design</p>
-<ul class="row justify-content-center minimal-list">
-    <li class="">SERVICES</li>
-    <li class="">WORK</li>
-    <li class="">BLOG</li>
-    <li class="">CONTACT</li>
-</ul>
+    <div class="row justify-content-center">
+        <img id="xs-logo" src="/assets/logo.png" alt="image">
+        <div class="container-fluid" id="xs-logo-banner" style="background-color: white"></div>
+    </div>
+    <p class="row codeup justify-content-center">codeup design</p>
+    <ul class="row justify-content-center minimal-list">
+        <li class="">SERVICES</li>
+        <li class="">WORK</li>
+        <li class="">BLOG</li>
+        <li class="">CONTACT</li>
+    </ul>
 </nav>
 
 <!--Second Nav-->
@@ -48,14 +48,15 @@
         </div>
     </div>
     <p class="row codeup justify-content-center">codeup design</p>
-    
+
 </nav>
 
 <!--Third Nav-->
 <nav class="d-none d-md-block">
     <div class="row">
         <img class="d-flex justify-content-start" id="md-logo" src="/assets/logo.png" alt="image">
-        <div class="container-fluid justify-content-start row d-flex" id="md-logo-banner" style="background-color: white">
+        <div class="container-fluid justify-content-start row d-flex" id="md-logo-banner"
+             style="background-color: white">
             <span class="codeup justify-content-start" id="logo-title">codeup design</span>
             <ul class="justify-content-end list-group list-group-flush list-group-horizontal flex-fill">
                 <li class="">SERVICES</li>
@@ -65,7 +66,6 @@
             </ul>
         </div>
     </div>
-
 </nav>
 
 <section class="row justify-content-center">
@@ -74,18 +74,16 @@
 </section>
 
 <!-- THIS NEEDS A BETTER SOLUTION I AM SORRY -->
-<section class="row col-12 col-sm-10 offset-sm-1 justify-content-center">
-    <div class="col-5 col-sm circle-grid my-1">
-        <div class="lg-circle px-auto" style="background-color: var(--red)"><span class="">DESIGN</span></div>
-    </div>
-    <div class="col-5 col-sm circle-grid my-1">
-        <div class="lg-circle px-auto" style="background-color: var(--orange)"><span>DEVELOP</span></div>
-    </div>
-    <div class="col-5 col-sm circle-grid my-1">
-        <div class="lg-circle px-auto" style="background-color: var(--green)"><span>SUPPORT</span></div>
-    </div>
-    <div class="col-5 col-sm circle-grid my-1">
-        <div class="lg-circle px-auto" style="background-color: var(--blue)"><span>HOST</span></div>
+<section class="col-12 col-sm-10 offset-sm-1 justify-content-center d-flex">
+    <div class="d-flex flex-column flex-sm-row">
+        <div class="d-flex">
+            <div class="lg-circle px-auto" style="background-color: var(--red)"><span class="">DESIGN</span></div>
+            <div class="lg-circle px-auto" style="background-color: var(--orange)"><span>DEVELOP</span></div>
+        </div>
+        <div class="d-flex">
+            <div class="lg-circle px-auto" style="background-color: var(--green)"><span>SUPPORT</span></div>
+            <div class="lg-circle px-auto" style="background-color: var(--blue)"><span>HOST</span></div>
+        </div>
     </div>
 </section>
 
@@ -97,90 +95,99 @@
 <section class="row justify-content-center">
 
     <!-- Featured Projects Column -->
-    <section class="row col-12 col-md-7">
-        <div class="row m-0">
-            <p class="col text-center">SELECTED WORK</p>
-        </div>
-        <div class="row m-0">
-            <div class="card col-12 col-sm-6 border-0 mb-5 my-sm-5">
-                <img src="/assets/images/apple-ipad.jpg" class="card-img-top work-img" alt="Apple laptop">
-                <div class="card-body px-0 py-1">
-                    <span class="text-nowrap">FEATURED PROJECT</span>
-                    <ul class="list-inline float-right ml-auto mr-0">
-                        <li class="list-inline-item sm-circle m-0 p-0" style="background-color: var(--red)">D</li>
-                        <li class="list-inline-item sm-circle m-0 p-0" style="background-color: var(--orange)">D</li>
-                        <li class="list-inline-item sm-circle m-0 p-0" style="background-color: var(--green)">S</li>
-                        <li class="list-inline-item sm-circle m-0 p-0" style="background-color: var(--blue)">H</li>
-                    </ul>
-                </div>
+    <section class="col-12 col-md-7">
+        <section class="row">
+            <div class="col">
+                <p class="text-center text-md-left">SELECTED WORK</p>
             </div>
+            <div class="row m-0">
+                <div class="card col-12 col-sm-6 border-0 mb-5 my-sm-5">
+                    <img src="/assets/images/apple-ipad.jpg" class="card-img-top work-img" alt="Apple laptop">
+                    <div class="card-body px-0 py-1">
+                        <span class="text-nowrap">FEATURED PROJECT</span>
+                        <ul class="list-inline float-right ml-auto mr-0">
+                            <li class="list-inline-item sm-circle m-0 p-0" style="background-color: var(--red)">D</li>
+                            <li class="list-inline-item sm-circle m-0 p-0" style="background-color: var(--orange)">D
+                            </li>
+                            <li class="list-inline-item sm-circle m-0 p-0" style="background-color: var(--green)">S</li>
+                            <li class="list-inline-item sm-circle m-0 p-0" style="background-color: var(--blue)">H</li>
+                        </ul>
+                    </div>
+                </div>
 
-            <div class="card col-12 col-sm-6 border-0 my-5">
-                <img src="/assets/images/macbook.jpg" class="card-img-top work-img" alt="Apple macbook">
-                <div class="card-body px-0 py-1">
-                    <span class="text-nowrap">FEATURED PROJECT</span>
-                    <ul class="list-inline float-right ml-auto mr-0">
-                        <li class="list-inline-item sm-circle m-0 p-0" style="background-color: var(--red)">D</li>
-                        <li class="list-inline-item sm-circle m-0 p-0" style="background-color: var(--orange)">D</li>
-                        <li class="list-inline-item sm-circle m-0 p-0" style="background-color: var(--green)">S</li>
-                        <li class="list-inline-item sm-circle m-0 p-0" style="background-color: var(--blue)">H</li>
-                    </ul>
+                <div class="card col-12 col-sm-6 border-0 my-5">
+                    <img src="/assets/images/macbook.jpg" class="card-img-top work-img" alt="Apple macbook">
+                    <div class="card-body px-0 py-1">
+                        <span class="text-nowrap">FEATURED PROJECT</span>
+                        <ul class="list-inline float-right ml-auto mr-0">
+                            <li class="list-inline-item sm-circle m-0 p-0" style="background-color: var(--red)">D</li>
+                            <li class="list-inline-item sm-circle m-0 p-0" style="background-color: var(--orange)">D
+                            </li>
+                            <li class="list-inline-item sm-circle m-0 p-0" style="background-color: var(--green)">S</li>
+                            <li class="list-inline-item sm-circle m-0 p-0" style="background-color: var(--blue)">H</li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
 
-            <div class="card col-12 col-sm-6 border-0 my-5">
-                <img src="/assets/images/man.jpg" class="card-img-top work-img" alt="A man with glasses">
-                <div class="card-body px-0 py-1">
-                    <span class="text-nowrap">FEATURED PROJECT</span>
-                    <ul class="list-inline float-right ml-auto mr-0">
-                        <li class="list-inline-item sm-circle m-0 p-0" style="background-color: var(--red)">D</li>
-                        <li class="list-inline-item sm-circle m-0 p-0" style="background-color: var(--orange)">D</li>
-                        <li class="list-inline-item sm-circle m-0 p-0" style="background-color: var(--green)">S</li>
-                        <li class="list-inline-item sm-circle m-0 p-0" style="background-color: var(--blue)">H</li>
-                    </ul>
+                <div class="card col-12 col-sm-6 border-0 my-5">
+                    <img src="/assets/images/man.jpg" class="card-img-top work-img" alt="A man with glasses">
+                    <div class="card-body px-0 py-1">
+                        <span class="text-nowrap">FEATURED PROJECT</span>
+                        <ul class="list-inline float-right ml-auto mr-0">
+                            <li class="list-inline-item sm-circle m-0 p-0" style="background-color: var(--red)">D</li>
+                            <li class="list-inline-item sm-circle m-0 p-0" style="background-color: var(--orange)">D
+                            </li>
+                            <li class="list-inline-item sm-circle m-0 p-0" style="background-color: var(--green)">S</li>
+                            <li class="list-inline-item sm-circle m-0 p-0" style="background-color: var(--blue)">H</li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
 
-            <div class="card col-12 col-sm-6 border-0 my-5">
-                <img src="/assets/images/security.jpg" class="card-img-top work-img" alt="Pointer hover over security">
-                <div class="card-body px-0 py-1">
-                    <span class="text-nowrap">FEATURED PROJECT</span>
-                    <ul class="list-inline float-right ml-auto mr-0">
-                        <li class="list-inline-item sm-circle m-0 p-0" style="background-color: var(--red)">D</li>
-                        <li class="list-inline-item sm-circle m-0 p-0" style="background-color: var(--orange)">D</li>
-                        <li class="list-inline-item sm-circle m-0 p-0" style="background-color: var(--green)">S</li>
-                        <li class="list-inline-item sm-circle m-0 p-0" style="background-color: var(--blue)">H</li>
-                    </ul>
+                <div class="card col-12 col-sm-6 border-0 my-5">
+                    <img src="/assets/images/security.jpg" class="card-img-top work-img"
+                         alt="Pointer hover over security">
+                    <div class="card-body px-0 py-1">
+                        <span class="text-nowrap">FEATURED PROJECT</span>
+                        <ul class="list-inline float-right ml-auto mr-0">
+                            <li class="list-inline-item sm-circle m-0 p-0" style="background-color: var(--red)">D</li>
+                            <li class="list-inline-item sm-circle m-0 p-0" style="background-color: var(--orange)">D
+                            </li>
+                            <li class="list-inline-item sm-circle m-0 p-0" style="background-color: var(--green)">S</li>
+                            <li class="list-inline-item sm-circle m-0 p-0" style="background-color: var(--blue)">H</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
     </section>
 
     <!--    Little side bit on large screens, else bottom of page -->
-    <section class="row col-12 col-md-5">
-        <div class="row col-12 m-0">
-            <p class="col-12 text-center text-md-left">THE LAST</p>
-        </div>
-        <div class="row col-12 m-0">
-            <div class="col-12">
-                <img>
-                <h5>THE ADMIN BAR AND ABSOLUTE POSITIONING</h5>
+    <section class="col-12 col-md-5">
+        <section class="row">
+            <div class="col">
+                <p class="text-center text-md-left m-0 p-0">THE LAST</p>
             </div>
-            <div class="col-12">
-                <img>
-                <h5>NIBBLER AWESOME WEBSITE TESTING</h5>
+            <div class="row m-0">
+                <div class="col-12">
+                    <img>
+                    <h5>THE ADMIN BAR AND ABSOLUTE POSITIONING</h5>
+                </div>
+                <div class="col-12">
+                    <img>
+                    <h5>NIBBLER AWESOME WEBSITE TESTING</h5>
+                </div>
+                <div class="col-12">
+                    <img>
+                    <h5>HOW TO GET GOOGLE TO LIKE YOU</h5>
+                </div>
+                <div class="col-12">
+                    <p>LAST TWEET</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aut dignissimos et
+                        nesciunt optio reprehenderit. Aspernatur assumenda dignissimos dolor necessitatibus nisi,
+                        non porro praesentium quam quasi soluta ullam, unde voluptas.</p>
+                </div>
             </div>
-            <div class="col-12">
-                <img>
-                <h5>HOW TO GET GOOGLE TO LIKE YOU</h5>
-            </div>
-            <div class="col-12">
-                <p>LAST TWEET</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aut dignissimos et
-                    nesciunt optio reprehenderit. Aspernatur assumenda dignissimos dolor necessitatibus nisi,
-                    non porro praesentium quam quasi soluta ullam, unde voluptas.</p>
-            </div>
-        </div>
+        </section>
     </section>
 </section>
 

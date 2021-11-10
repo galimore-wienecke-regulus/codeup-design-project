@@ -11,7 +11,6 @@ font-family: 'Anton', sans-serif; */
     --light: #F0F0F0;
     --dark: #E6E6E6;
 }
-
 body {
     background-color: var(--light) !important;
     /*max-width: 75%;*/
@@ -54,7 +53,7 @@ h5 {
     min-width: 105px;
     min-height: 105px;
     border-radius: 50%;
-    margin: 0 auto;
+    margin: .5em;
     /*should only show red if forgot to specify bg color*/
     background-color: red;
     /*Align content to center*/
@@ -105,10 +104,10 @@ li {
     top: -80px;
     margin-bottom: -50px;
 }
-/*.xs-break {*/
-/*    display: block;*/
-/*    height: 100px;*/
-/*}*/
+.xs-break {
+    display: block;
+    height: 100px;
+}
 .work-img {
     border: 4px solid var(--dark);
 }
