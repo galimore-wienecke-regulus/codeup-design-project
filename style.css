@@ -111,30 +111,44 @@ li {
 .work-img {
     border: 4px solid var(--dark);
 }
+
+/* Styling for the articles section towards the end of the document layout */
 .article-body {
+    /* margin here gives a bit of space between the image's right side and the text's left */
     margin: 1em 0;
+    /* line-height sets the spacing between lines for when the text wraps.
+        the default value is 1.5em so this moves them closer together */
     line-height: 1em;
 }
 .article-image {
+    /* object-fit crops the image down in the thumbnail to a size specified in the next block */
     object-fit: cover !important;
+    /* This determines the actual size of the thumbnail image */
     width: 35px !important;
     height: 35px !important;
-    /*height: 40px !important;*/
 }
 .article-text {
     font-family: 'Anton', sans-serif;
 }
-.twitter-head i{
+/* Styling for the twitter section at the end of the articles section at the end of the document */
+/* Twitter section is a div containing two elements: a div of class twitter head and a p of class twitter body */
+/* Twitter head contains the fontawesome twitter icon element and a text span */
+.twitter-head .twitter-icon {
+    /* placing a margin on top pushes the twitter icon down and allows the span's text to be aligned with icon's top */
     margin-top: 3px;
+    /* set icon to twitter blue */
+    color: #1DA1F2;
+    /* make icon larger */
+    font-size: 1.5em;
 }
 .twitter-head span {
+    /* margin-left here puts a bit of space between the icon and the text */
     margin-left: 1em;
+    /* vertical align moves the span up closer to the top so it can align easily with the icon */
     vertical-align: top;
 }
+/* twitter body contains simply the p tag with the tweet's text */
 .twitter-body {
+    /* font in tweet in the style guide is slightly smaller than the font elsewhere*/
     font-size: 12px;
-}
-#twitter-icon {
-    color: #1DA1F2;
-    font-size: 1.5em;
 }
