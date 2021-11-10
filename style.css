@@ -84,7 +84,7 @@ h5 {
 #xs-logo, #sm-logo, #md-logo {
     width: 105px;
     max-width: 100%;
-    z-index: 1;
+    z-index: 2;
 }
 /* special styling for the md+ layout to position the "codeup design" title element */
 .md-logo-case {
@@ -98,6 +98,7 @@ h5 {
     position: relative;
     top: -80px;
     margin-bottom: -50px;
+    z-index: 0;
 }
 .xs-break {
     display: block;
