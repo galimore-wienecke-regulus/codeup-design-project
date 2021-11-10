@@ -111,20 +111,30 @@ li {
 .work-img {
     border: 4px solid var(--dark);
 }
-#twitter-icon {
-    color: #1DA1F2;
-    font-size: 1.5em;
-}
 .article-body {
     margin: 1em 0;
     line-height: 1em;
 }
 .article-image {
     object-fit: cover !important;
-    width: 40px !important;
-    height: 40px !important;
+    width: 35px !important;
+    height: 35px !important;
     /*height: 40px !important;*/
 }
 .article-text {
     font-family: 'Anton', sans-serif;
+}
+.twitter-head i{
+    margin-top: 3px;
+}
+.twitter-head span {
+    margin-left: 1em;
+    vertical-align: top;
+}
+.twitter-body {
+    font-size: 12px;
+}
+#twitter-icon {
+    color: #1DA1F2;
+    font-size: 1.5em;
 }
