@@ -47,7 +47,7 @@ h5 {
     /*Circle params*/
     width: 105px;
     height: 105px;
-    border: 8px solid red;
+    border: 8px solid white;
     max-width: 105px;
     max-height: 105px;
     min-width: 105px;
@@ -110,4 +110,8 @@ li {
 }
 .work-img {
     border: 4px solid var(--dark);
+}
+#twitter-icon {
+    color: #1DA1F2;
+    font-size: 1.5em;
 }
