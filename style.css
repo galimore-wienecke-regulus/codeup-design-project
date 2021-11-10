@@ -116,10 +116,14 @@ li {
     font-size: 1.5em;
 }
 .article-body {
+    margin: 1em 0;
     line-height: 1em;
 }
 .article-image {
+    object-fit: cover !important;
+    width: 40px !important;
     height: 40px !important;
+    /*height: 40px !important;*/
 }
 .article-text {
     font-family: 'Anton', sans-serif;
