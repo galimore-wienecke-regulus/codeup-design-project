@@ -4,15 +4,14 @@
 font-family: 'Abel', sans-serif;
 font-family: 'Anton', sans-serif; */
 :root {
-    --red: #E6563B;
+    --red: #EB9D3A;
     --orange: #DEA03D;
     --green: #7CB06C;
     --blue: #00ABA9;
     --light: #F0F0F0;
     --dark: #E6E6E6;
-
-
 }
+
 body {
     background-color: var(--light) !important;
     /*max-width: 75%;*/
@@ -41,36 +40,79 @@ h4 {
 h5 {
     font-size: 28px;
 }
+.circle-grid {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
 .lg-circle {
     /*Circle params*/
     width: 105px;
     height: 105px;
-    border: 10px solid white;
+    border: 8px solid red;
     max-width: 105px;
     max-height: 105px;
+    min-width: 105px;
+    min-height: 105px;
     border-radius: 50%;
+    margin: 0 auto;
     /*should only show red if forgot to specify bg color*/
     background-color: red;
     /*Align content to center*/
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
-.lg-circle p {
+.lg-circle span {
     font-family: 'Anton', sans-serif;
     color: white;
     font-size: 20px;
 }
-.sm-circle{
-    width: 18px;
-    height: 18px;
+.sm-circle {
+    font-family: 'Anton', sans-serif;
     border-radius: 50%;
-    /* should not show */
-    background-color: red;
-    display: flex;
+    text-align: center;
+    line-height: 20px;
+    font-size: 10px;
+    width: 20px;
+    height: 20px;
 }
-.sm-circle p {
+.sm-circle span {
     font-family: 'Anton', sans-serif;
     color: black;
     font-size: 8px;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    margin: 1em;
+}
+#logo {
+    width: 105px;
+    max-width: 100%;
+    z-index: 1;
+
+}
+#logo-banner {
+    height: 50px;
+    position: relative;
+    top: -80px;
+    margin-bottom: -50px;
+}
+/*.xs-break {*/
+/*    display: block;*/
+/*    height: 100px;*/
+/*}*/
+.work-img {
+    border: 4px solid var(--dark);
+}
+@media (max-width: 700px){
+    nav {
+
+        color: red;
+
+    }
 }
