@@ -13,13 +13,14 @@ font-family: 'Anton', sans-serif; */
 }
 body {
     background-color: var(--light) !important;
-    /*max-width: 75%;*/
+    max-width: 75%;
 }
 * {
     font-family: 'Abel', sans-serif;
 }
 .codeup {
     font-size: 48px;
+
 }
 h1, h2, h3, h4, h5 {
     font-family: 'Anton', sans-serif;
@@ -37,7 +38,7 @@ h4 {
     font-size: 32px;
 }
 h5 {
-    font-size: 28px;
+    font-size: 30px !important;
 }
 .circle-grid {
     box-sizing: border-box;
@@ -115,3 +116,11 @@ li {
     color: #1DA1F2;
     font-size: 1.5em;
 }
+.article-image{
+    max-height:50%;
+    max-width: 50%;
+    float: left;
+}
+/*h5.test {*/
+/*    font-size: 28px;*/
+/*}*/
