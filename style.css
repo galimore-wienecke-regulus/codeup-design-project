@@ -13,7 +13,7 @@ font-family: 'Anton', sans-serif; */
 }
 body {
     background-color: var(--light) !important;
-    /*max-width: 75%;*/
+    max-width: 1000px;
 }
 * {
     font-family: 'Abel', sans-serif;
@@ -147,4 +147,7 @@ h5 {
 .twitter-body {
     /* font in tweet in the style guide is slightly smaller than the font elsewhere*/
     font-size: 12px;
+}
+hr {
+    max-width: 100%;
 }
