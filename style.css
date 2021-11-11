@@ -49,12 +49,7 @@ h5 {
     width: 105px;
     height: 105px;
     border: 8px solid white;
-    max-width: 105px;
-    max-height: 105px;
-    min-width: 105px;
-    min-height: 105px;
     border-radius: 50%;
-    margin: .5em;
     /*should only show red if forgot to specify bg color*/
     background-color: red;
     /*Align content to center*/
@@ -77,33 +72,34 @@ h5 {
     width: 20px;
     height: 20px;
 }
-.sm-circle span {
-    font-family: 'Anton', sans-serif;
-    color: black;
-    font-size: 8px;
+/* the navlist class is a class for the special case of the navbar/header for the small display layout. */
+.navlist  {
+    /* this margin is applied to the ul element itself to position it roughly halfway from the top of the banner*/
+    margin: .35em 0 0 0;
 }
-ul {
+.navlist li {
+    /* essential styling for the list elements to keep them nicely spaced in this layout */
     list-style: none;
-    margin: 0;
-    padding: 0;
-}
-li {
-    margin: 1em;
+    margin: .5em;
 }
 #xs-logo, #sm-logo, #md-logo {
     width: 105px;
     max-width: 100%;
-    z-index: 1;
-
+    z-index: 2;
 }
-#logo-title {
+/* special styling for the md+ layout to position the "codeup design" title element */
+.md-logo-case {
+    /* this margin keeps the title from clipping the icon */
     padding-left: 120px;
+    /* this margin positions it halfway down the banner */
+    margin-top: -15px;
 }
 #xs-logo-banner, #sm-logo-banner, #md-logo-banner {
     height: 50px;
     position: relative;
     top: -80px;
     margin-bottom: -50px;
+    z-index: 0;
 }
 .xs-break {
     display: block;
@@ -112,15 +108,44 @@ li {
 .work-img {
     border: 4px solid var(--dark);
 }
-#twitter-icon {
+
+/* Styling for the articles section towards the end of the document layout */
+.article-body {
+    /* margin here gives a bit of space between the image's right side and the text's left */
+    margin: 1em 0;
+    /* line-height sets the spacing between lines for when the text wraps.
+        the default value is 1.5em so this moves them closer together */
+    line-height: 1em;
+}
+.article-image {
+    /* object-fit crops the image down in the thumbnail to a size specified in the next block */
+    object-fit: cover !important;
+    /* This determines the actual size of the thumbnail image */
+    width: 35px !important;
+    height: 35px !important;
+}
+.article-text {
+    font-family: 'Anton', sans-serif;
+}
+/* Styling for the twitter section at the end of the articles section at the end of the document */
+/* Twitter section is a div containing two elements: a div of class twitter head and a p of class twitter body */
+/* Twitter head contains the fontawesome twitter icon element and a text span */
+.twitter-head .twitter-icon {
+    /* placing a margin on top pushes the twitter icon down and allows the span's text to be aligned with icon's top */
+    margin-top: 3px;
+    /* set icon to twitter blue */
     color: #1DA1F2;
+    /* make icon larger */
     font-size: 1.5em;
 }
-.article-image{
-    max-height:50%;
-    max-width: 50%;
-    float: left;
+.twitter-head span {
+    /* margin-left here puts a bit of space between the icon and the text */
+    margin-left: 1em;
+    /* vertical align moves the span up closer to the top so it can align easily with the icon */
+    vertical-align: top;
 }
-/*h5.test {*/
-/*    font-size: 28px;*/
-/*}*/
+/* twitter body contains simply the p tag with the tweet's text */
+.twitter-body {
+    /* font in tweet in the style guide is slightly smaller than the font elsewhere*/
+    font-size: 12px;
+}
