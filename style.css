@@ -84,7 +84,6 @@ a {
     width: 105px;
     max-width: 105px;
     max-height: 105px;
-    z-index: 2;
 }
 /* special styling for the md+ layout to position the "codeup design" title element */
 .md-logo-case {
