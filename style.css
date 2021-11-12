@@ -119,7 +119,8 @@ a {
 /* .work-img is the images in the featured work columns. */
 .work-img {
     border: 4px solid var(--dark-grey);
-    max-height: 170px;
+    max-height: 160px;
+    max-width: 100%;
 }
 /* Styling for the articles section towards the end of the document layout */
 .article-body {
