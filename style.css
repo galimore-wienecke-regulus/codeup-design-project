@@ -82,7 +82,8 @@ a {
 }
 #xs-logo, #sm-logo, #md-logo {
     width: 105px;
-    max-width: 100%;
+    max-width: 105px;
+    max-height: 105px;
     z-index: 2;
 }
 /* special styling for the md+ layout to position the "codeup design" title element */
@@ -106,7 +107,7 @@ a {
     position: relative;
     top: 37px;
     margin-bottom: -40px;
-    z-index: 0;
+    z-index: -1;
     /* This way it can be full-width even with the rest of the content constrained to a fraction of the
     screen width, on large and small displays. */
     width: 100%;
