@@ -4,16 +4,15 @@
 font-family: 'Abel', sans-serif;
 font-family: 'Anton', sans-serif; */
 :root {
-    --red: #EB9D3A;
-    --orange: #DEA03D;
-    --green: #7CB06C;
-    --blue: #00ABA9;
+    --red-color: #E6563B;
+    --orange-color: #EB9D3A;
+    --green-color: #7CB06C;
+    --blue-color: #00ABA9;
     --light-grey: #F0F0F0;
     --dark-grey: #E6E6E6;
 }
 body {
     background-color: var(--light-grey) !important;
-
 }
 * {
     font-family: 'Abel', sans-serif;
