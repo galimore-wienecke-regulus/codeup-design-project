@@ -70,15 +70,22 @@ a {
     width: 20px;
     height: 20px;
 }
-/* the navlist class is a class for the special case of the navbar/header for the small display layout. */
 .navlist  {
-    /* this margin is applied to the ul element itself to position it roughly halfway from the top of the banner*/
-    margin: .35em 0 0 0;
+    margin: 0;
+    padding-inline-start: 0;
 }
 .navlist li {
     /* essential styling for the list elements to keep them nicely spaced in this layout */
     list-style: none;
-    margin: .5em;
+    margin: 0;
+    padding: 0;
+}
+@media only screen and (max-width: 768px) and (min-width: 576px) {
+    .navlist {
+        position: relative;
+        top: -65px;
+        margin-bottom: -30px;
+    }
 }
 #xs-logo, #sm-logo, #md-logo {
     width: 105px;
