@@ -70,27 +70,20 @@ a {
     width: 20px;
     height: 20px;
 }
+/* the navlist class is a class for the special case of the navbar/header for the small display layout. */
 .navlist  {
-    margin: 0;
-    padding-inline-start: 0;
+    /* this margin is applied to the ul element itself to position it roughly halfway from the top of the banner*/
+    margin: .35em 0 0 0;
 }
 .navlist li {
     /* essential styling for the list elements to keep them nicely spaced in this layout */
     list-style: none;
-    margin: 0;
-    padding: 0;
-}
-@media only screen and (max-width: 768px) and (min-width: 576px) {
-    .navlist {
-        position: relative;
-        top: -65px;
-        margin-bottom: -30px;
-    }
+    margin: .5em;
 }
 #xs-logo, #sm-logo, #md-logo {
     width: 105px;
-    max-width: 105px;
-    max-height: 105px;
+    max-width: 100%;
+    z-index: 2;
 }
 /* special styling for the md+ layout to position the "codeup design" title element */
 .md-logo-case {
@@ -113,7 +106,7 @@ a {
     position: relative;
     top: 37px;
     margin-bottom: -40px;
-    z-index: -1;
+    z-index: 0;
     /* This way it can be full-width even with the rest of the content constrained to a fraction of the
     screen width, on large and small displays. */
     width: 100%;
