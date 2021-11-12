@@ -50,8 +50,6 @@ a {
     height: 105px;
     border: 8px solid white;
     border-radius: 50%;
-    /*should only show red if forgot to specify bg color*/
-    background-color: red;
     /*Align content to center*/
     display: flex;
     justify-content: center;
@@ -123,7 +121,6 @@ a {
     border: 4px solid var(--dark-grey);
     max-height: 170px;
 }
-
 /* Styling for the articles section towards the end of the document layout */
 .article-body {
     /* margin here gives a bit of space between the image's right side and the text's left */
