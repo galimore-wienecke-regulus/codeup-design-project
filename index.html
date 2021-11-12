@@ -18,65 +18,53 @@
 <body>
 <div class="white-banner"></div>
 <section class="container-fluid justify-content-center constrain-width">
-    <nav class="container-fluid">
-        <div class="container-fluid d-flex flex-column align-items-center">
-            <img id="xs-logo" src="/assets/logo.png" alt="codeup logo" class="order-0 ">
-            <p class="codeup justify-content-center text-nowrap order-1">codeup design</p>
-            <ul class="navlist d-flex order-2 order-sm-0 align-content-center align-content-sm-around mx-auto">
-                <li class="d-flex px-1 mx-sm-1"><a href="#">SERVICES</a></li>
-                <li class="d-flex px-1 pr-sm-3 mr-sm-5"><a href="#">WORK</a></li>
-                <li class="d-flex px-1 pl-sm-3 ml-sm-5"><a href="#">BLOG</a></li>
-                <li class="d-flex px-1 mx-sm-1"><a href="#">CONTACT</a></li>
-            </ul>
+    <!-- X-Small nav -->
+    <nav class="d-block d-sm-none">
+        <div class="row justify-content-center">
+            <img id="xs-logo" src="/assets/logo.png" alt="image">
+            <div class="container-fluid logo-bar"></div>
+        </div>
+        <p class="row codeup justify-content-center">codeup design</p>
+        <ul class="row justify-content-center list-group list-group-flush list-group-horizontal navlist">
+            <li><a href="#">SERVICES</a></li>
+            <li><a href="#">WORK</a></li>
+            <li><a href="#">BLOG</a></li>
+            <li><a href="#">CONTACT</a></li>
+        </ul>
+    </nav>
+    <!-- Small Nav -->
+    <nav class="d-none d-sm-block d-md-none container-fluid">
+        <div class="row justify-content-center">
+            <img id="sm-logo" src="/assets/logo.png" alt="image">
+            <div class="container-fluid logo-bar">
+                <ul class="list-group list-group-flush list-group-horizontal navlist text-center">
+                    <li style="width: 93px;"></li>
+                    <li class="flex-fill"><a href="#">SERVICES</a></li>
+                    <li class="flex-fill"><a href="#">WORK</a></li>
+                    <li style="width: 105px;"></li>
+                    <li class="flex-fill"><a href="#">BLOG</a></li>
+                    <li class="flex-fill"><a href="#">CONTACT</a></li>
+                    <li style="width: 105px;"></li>
+                </ul>
+            </div>
+        </div>
+        <p class="row codeup justify-content-center">codeup design</p>
+    </nav>
+    <!-- Medium and larger Nav -->
+    <nav class="d-none d-md-block">
+        <div class="row">
+            <img class="d-flex justify-content-start" id="md-logo" src="/assets/logo.png" alt="image">
+            <div class="container-fluid justify-content-start d-flex logo-bar">
+                <span class="codeup justify-content-start md-logo-case">codeup design</span>
+                <ul class="justify-content-end list-group list-group-flush list-group-horizontal flex-fill navlist">
+                    <li>SERVICES</li>
+                    <li>WORK</li>
+                    <li>BLOG</li>
+                    <li>CONTACT</li>
+                </ul>
+            </div>
         </div>
     </nav>
-<!--    &lt;!&ndash; X-Small nav &ndash;&gt;-->
-<!--    <nav class="d-block d-sm-none">-->
-<!--        <div class="row justify-content-center">-->
-<!--            <img id="xs-logo" src="/assets/logo.png" alt="image">-->
-<!--            <div class="container-fluid logo-bar"></div>-->
-<!--        </div>-->
-<!--        <p class="row codeup justify-content-center">codeup design</p>-->
-<!--        <ul class="row justify-content-center list-group list-group-flush list-group-horizontal navlist">-->
-<!--            <li><a href="#">SERVICES</a></li>-->
-<!--            <li><a href="#">WORK</a></li>-->
-<!--            <li><a href="#">BLOG</a></li>-->
-<!--            <li><a href="#">CONTACT</a></li>-->
-<!--        </ul>-->
-<!--    </nav>-->
-<!--    &lt;!&ndash; Small Nav &ndash;&gt;-->
-<!--    <nav class="d-none d-sm-block d-md-none container-fluid">-->
-<!--        <div class="row justify-content-center">-->
-<!--            <img id="sm-logo" src="/assets/logo.png" alt="image">-->
-<!--            <div class="container-fluid logo-bar">-->
-<!--                <ul class="list-group list-group-flush list-group-horizontal navlist text-center">-->
-<!--                    <li style="width: 93px;"></li>-->
-<!--                    <li class="flex-fill"><a href="#">SERVICES</a></li>-->
-<!--                    <li class="flex-fill"><a href="#">WORK</a></li>-->
-<!--                    <li style="width: 105px;"></li>-->
-<!--                    <li class="flex-fill"><a href="#">BLOG</a></li>-->
-<!--                    <li class="flex-fill"><a href="#">CONTACT</a></li>-->
-<!--                    <li style="width: 105px;"></li>-->
-<!--                </ul>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--        <p class="row codeup justify-content-center">codeup design</p>-->
-<!--    </nav>-->
-<!--    &lt;!&ndash; Medium and larger Nav &ndash;&gt;-->
-<!--    <nav class="d-none d-md-block">-->
-<!--        <div class="row">-->
-<!--            <img class="d-flex justify-content-start" id="md-logo" src="/assets/logo.png" alt="image">-->
-<!--            <div class="container-fluid justify-content-start d-flex logo-bar">-->
-<!--                <span class="codeup justify-content-start md-logo-case">codeup design</span>-->
-<!--                <ul class="justify-content-end list-group list-group-flush list-group-horizontal flex-fill navlist">-->
-<!--                    <li>SERVICES</li>-->
-<!--                    <li>WORK</li>-->
-<!--                    <li>BLOG</li>-->
-<!--                    <li>CONTACT</li>-->
-<!--                </ul>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </nav>-->
 
     <!-- PAGE HEADING -->
     <section class="row justify-content-center my-4">
