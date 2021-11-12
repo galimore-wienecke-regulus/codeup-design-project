@@ -44,10 +44,6 @@ a {
 .codeup {
     font-size: 48px;
 }
-.circle-grid {
-    box-sizing: border-box;
-    margin: 0 auto;
-}
 .lg-circle {
     /*Circle params*/
     width: 105px;
